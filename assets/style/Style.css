@@ -1,0 +1,164 @@
+@import "./fonts.css";
+@import "./reset.css";
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.dot__succes {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline;
+  background: green;
+  margin-right: 7px;
+}
+
+.hero {
+  position: relative;
+  height: 650px;
+  background: url(../images/img1.jpg) no-repeat right;
+  background-size: 95%;
+  background-position-y: -121px;
+  padding-top: 31px;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg, #FFFFFF 20%, rgba(255, 255, 255, 0) 86.67%);
+}
+.hero.hero_dark {
+  background: url(../images/33.jpg) no-repeat right;
+  background-size: 95%;
+  background-position-y: -121px;
+  padding-top: 31px;
+}
+.hero.hero_dark::before {
+  background: linear-gradient(90deg, #000000 -2.88%, rgba(82, 82, 82, 0.35) 86.67%);
+}
+.hero.hero_dark .hero__title {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__sm-desc {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__desc {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__phone {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__time {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__def {
+  color: #FFFFFF;
+}
+.hero.hero_dark .hero__logo {
+  color: #FFFFFF;
+}
+.hero__top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.hero__logo {
+  display: flex;
+  align-items: flex-end;
+}
+.hero__def {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  width: 220px;
+  color: #593F0D;
+  margin-left: 8px;
+}
+.hero__contacts {
+  display: flex;
+  align-items: center;
+}
+.hero__sm-desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 14px;
+  color: #593F0D;
+  max-width: 156px;
+}
+.hero__social:not(:last-child) {
+  margin-left: 9px;
+}
+.hero__order {
+  width: 180px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+  box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.hero__order::before {
+  content: "";
+}
+.hero__phone {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: right;
+  color: #593F0D;
+}
+.hero__time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #593F0D;
+  text-align: right;
+}
+.hero__content {
+  position: relative;
+  z-index: 1;
+  margin-top: 73px;
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 55px;
+  color: #593F0D;
+  max-width: 650px;
+}
+.hero__desc {
+  max-width: 403px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 69px;
+  color: #593F0D;
+}
+.hero__button {
+  position: relative;
+  width: 320px;
+  height: 78px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+  box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+}
+.hero__button img {
+  top: -30px;
+  right: -90px;
+  position: absolute;
+}/*# sourceMappingURL=Style.css.map */
